@@ -41,8 +41,26 @@ VisionCare AI is a deep learning-powered diagnostic tool for the early detection
 
 ## ⚙️ Setup & Installation
 
-```bash
+bash
 git clone https://github.com/ashritkvs/Vision-Care.git
 cd Vision-Care
 pip install -r requirements.txt
 streamlit run app/main.py
+
+---
+
+## 📂 Dataset
+
+This project uses the [APTOS 2019 Blindness Detection Dataset](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data).
+
+To train your own model:
+
+1. Go to the Kaggle link above
+2. Download:
+   - `train.csv`
+   - `test.csv`
+   - `train_images/`
+   - `test_images/`
+
+
+
